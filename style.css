@@ -50,4 +50,20 @@
   text-align: left;
 
 }
+.grid_button{
+  
+  margin-top: 20px;
+  background: rgb(148, 71, 142);
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  border-radius: 25px;
+
+}
+.grid_h1{
+  color:rgb(148, 71, 142) ;
+
+}
 
