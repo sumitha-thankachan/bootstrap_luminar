@@ -1,0 +1,53 @@
+.upper_nav{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(148, 71, 142);
+  color: white;
+ 
+}
+.crsl_img{
+  height: 450px;
+}
+.csl_btn{
+  background: rgb(148, 71, 142);
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  
+  
+}
+.mdl_button{
+  background: rgb(148, 71, 142);
+  color: #ffffff;
+  border: none;
+  
+}
+.mdl_button1{
+  margin-left: 45%;
+  margin-top: 20px;
+  background: rgb(148, 71, 142);
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  border-radius: 25px;
+  
+}
+.crsl_cap{
+  padding-top: 10px;
+  text-align: left;
+  font-weight:700;
+  font-size: 50px;
+
+}
+    
+.crsl_p{
+  text-align: left;
+
+}
+

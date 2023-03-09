@@ -1,82 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a37d7b6ede.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a37d7b6ede.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(121, 65, 116);">
-  <div class="container">
-   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#">Have any question? +91 8086 651 651</a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
-       
-        
-      </ul>
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link text-white" aria-current="page" href="#"> <i class="fa-solid fa-phone"></i>  +91 8086 651 651 </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#"><i class="fa-regular fa-envelope"></i> contact@luminartechnolab.com</a>
-        </li>
-        
-       
-        
-      </ul>
-      
+  <div class=" upper_nav">
+  </div>
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <img src="./images/logo.png" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our placement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- carousel -->
+
+  <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active c_pad">
+        <img src="./images/carousel-2.jpg" class="d-block w-100 crsl_img" alt="...">
+        <div class="carousel-caption d-none d-md-block ">
+          <h1 class="crsl_cap">Kerala's No.1 IT Finishing School<br>100% Placement Assistance</h1>
+          <p class="crsl_p">We at LUMINAR TECHNOLAB offers best software training and placement in emerging technologies
+            like BIG DATA, Data Science, Machine Learning,PYTHON, Software Testing.</p>
+          <p class="crsl_p">
+            <button class="csl_btn ">VIEW COURSE</button>
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="./images/carousel-1.jpg" class="d-block w-100 crsl_img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="text-xl-left crsl_cap">Data Science, ML &amp; AI Big Data - Hadoop &amp; Spark <br> Python Data
+            Science</h1>
+          <p class="crsl_p">We LUMINAR TECHNOLAB offers best software training and placement in emerging technologies
+            like Big Data, Hadoop, Spark,Data Scince, Machine Learning, Deep Learning and AI.</p>
+          <p class="crsl_p">
+            <button class="csl_btn ">VIEW COURSE</button>
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+  <!-- opening alert -->
+  <!-- Button trigger modal -->
+  <button type="button" class="mdl_button1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Enquiry
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <h5 class="modal-title" id="exampleModalLabel">Get Training Quote for free</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        </div>
+        <div class="modal-body">
+
+
+
+          <form class="container" action="">
+            <input style="border: none;" type="text" placeholder="Name">
+            <hr>
+            <input style="border: none;" type="email" placeholder="Email">
+            <hr>
+            <input style="border: none;" type="text" placeholder="Phone number">
+            <hr>
+            <select style="border: none;" name="" id="">
+              <option value="">Select course intrested in</option>
+              <option value="">MEARN</option>
+              <option value="">Phyton</option>
+              <option value="">Testing</option>
+              <option value="">AI</option>
+            </select>
+            <hr>
+            <input style="border: none;" type="text" placeholder="City">
+            <hr>
+            <textarea class="form-control" style="border: none;" name="" id="" cols="30" rows="5"
+              placeholder="Comments"></textarea>
+          </form>
+
+        </div>
+
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+          <button type="button" class="mdl_button">Submit Query</button>
+        </div>
+      </div>
     </div>
   </div>
-</nav>
 
-
-
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <img src="./images/logo.JPG" alt="">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Course</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Our placement</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-             
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
-    
 </body>
+
 </html>
