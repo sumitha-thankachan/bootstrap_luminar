@@ -90,6 +90,19 @@
 .ca:hover{
   transform: scale(1.05);
 }
+.bottom_btn{
+  border-radius: 50px;
+  width: 150px;
+  height:50px;
+  color:rgb(129, 39, 122) ;
+  background-color: white;
+  border: 2px solid rgb(129, 39, 122);
+
+}
+.bottom_btn:hover{
+  color: white;
+  background-color: rgb(129, 39, 122);
+}
 
 
 
