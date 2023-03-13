@@ -67,3 +67,29 @@
 
 }
 
+@media (max-width:560px)
+{
+  
+  .upper_img{
+    width: 200px;
+  }
+}
+.card_bn{
+   color: white;
+   width: 8rem;
+   background-color: rgb(129, 39, 122);
+   height: 28px;
+   border-radius: 0px;
+   border: none;
+}
+.ca{
+  transition: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.ca:hover{
+  transform: scale(1.05);
+}
+
+
+
